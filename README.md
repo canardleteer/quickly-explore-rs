@@ -342,7 +342,7 @@ Build it:
 cargo build
 ```
 
-Run it with a `--help` command:
+Run it this way `./target/debug/quickly-explore-rs --help`:
 
 ```shell
 -> ./target/debug/quickly-explore-rs --help
@@ -368,7 +368,7 @@ Hello, Some Real Name!
 
 ### Format the changed code (Your IDE may do this for you)
 
-Let's check to see if that's good Rust, with `cargo fmt`:
+Let's check to see if that's good Rust, with `cargo fmt --check`:
 
 ```shell
 -> cargo fmt --check
@@ -405,9 +405,10 @@ Looking tidy!
 
 ### Lint the changed code (Your IDE may do this for you)
 
-Let's see if the code smells right:
+Let's see if the code smells right via `cargo clippy`:
 
 ```shell
+-> cargo clippy
     Checking quickly-explore-rs v0.1.0 (/home/canardleteer/dev/quickly-explore-rs)
 warning: unused variable: `name`
   --> src/main.rs:22:9
@@ -425,7 +426,7 @@ Oh yeah, I guess we aren't using `name`. Go ahead and delete that line, or
 follow the linters suggestion of prefixing it with an underscore if you want
 to use it for something else.
 
-There are 4 other options, would be to disable linting of that specific rule (`unused_variables`) for:
+There are 4 other options, which would be to disable linting of that specific rule (`unused_variables`) for:
 
 - That line
 - That function
@@ -434,7 +435,8 @@ There are 4 other options, would be to disable linting of that specific rule (`u
 
 But I won't go into that. The linter isn't always right, but often is. You
 have many options that don't involve disabling the linter completely. Don't
-disable the linter completely.
+disable the linter completely. Not using the linter at all is not a reasonable
+5th option.
 
 ```shell
 -> cargo clippy

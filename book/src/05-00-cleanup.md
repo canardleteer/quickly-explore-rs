@@ -2,7 +2,7 @@
 
 You can do some quick formatting and linting stuff:
 
-```shell
+```text
 # will automatically clean up your code, where it can
 cargo fmt
 

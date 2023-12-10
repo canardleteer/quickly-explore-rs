@@ -1,5 +1,5 @@
 
-# Learning the Rust tools
+# Quickly Explore The Rust Toolbox
 
 ## First Steps
 
@@ -87,6 +87,13 @@ Files that may get generated for you:
   - **Even though this repository is an application, we are not commiting it, so it remains as generated.**
 
 You can reproduce that if you'd like to.
+
+This won't make:
+
+- `README.md`
+- `book/`
+
+Those have been added after the initial buildout, for documentation purposes.
 
 ## Welcome to your curated Hello World Experience
 

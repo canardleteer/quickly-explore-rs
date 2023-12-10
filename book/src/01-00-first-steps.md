@@ -8,15 +8,17 @@ git clone https://github.com/canardleteer/quickly-explore-rs.git
 
 ## Cargo
 
-- `cargo` is the general package manager for the Rust ecosystem, and your general "entrypoint" into Rust.
-- The overall [Cargo documentation](https://doc.rust-lang.org/cargo/getting-started/installation.html) is going to be better than mine. This is just a quick tour.
-
+- `cargo` is the general **package manager** for the Rust ecosystem, and your general "entrypoint" into Rust.
+  - The overall [Cargo documentation](https://doc.rust-lang.org/cargo/getting-started/installation.html) is going to be better than mine. This is just a quick tour.
+  - In practice, calling the Rust compiler (`rustc`) directly, is rare.
 - Start by going to [rustup.rs](https://rustup.rs/) to download the installer.
   - You are welcome to audit the shell script beforehand, since I don't
     recommend randomly piping curl to a shell, but that seems to be the
     way people do things now?
   - This sometimes fails for people. There's enough info in the shell script
     to manually do it.
+
+- Poke around a little bit.
 
 ```text
 # Take a look at what ya got:

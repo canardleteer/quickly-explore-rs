@@ -8,5 +8,5 @@ An example would be:
 ```toml
 [toolchain]
 profile = "default"
-channel = "1.72.1"
+channel = "1.74.0"
 ```

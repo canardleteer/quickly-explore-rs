@@ -1,10 +1,12 @@
 # Add a crate
 
-First, let's add the extremely useful `clap` library to our `Cargo.toml`. Start by checking out the [crate page](https://crates.io/crates/clap).
+First, let's add the extremely useful `clap` library to our `Cargo.toml`. Start
+by checking out the [crates.io page](https://crates.io/crates/clap).
 
 I am pinning the version, to `4.4.11`, and adding 2 Features: `derive` and `env`.
 
-- "Features" for crates are important to know about, but I'm not going to cover them here. You can [read up on them](https://doc.rust-lang.org/cargo/reference/features.html).
+- "Features" for crates/packages are important to know about, but I'm not going to cover
+them here. You can [read up on them](https://doc.rust-lang.org/cargo/reference/features.html).
 
 ```shell
 -> cargo add clap@4.4.11 --features derive,env

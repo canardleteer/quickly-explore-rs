@@ -7,6 +7,12 @@ The root level place folks head to for the Rust Ecosystem is:
   - It gets much more complex when dealing with private/internal crate repositories.
 - You will add things here to your `Cargo.toml` file under `[dependencies]`
 - Documentation, will be published to [docs.rs](https://docs.rs/)
+- **crates** in general are versioned and compiled libraries/executables,
+  built from a **package** repository.
+  - It's usually okay to interchange the term "crate" and "package," but they do
+    have specific meaning in some contexts.
+  - Once published to a public place like `crates.io`, a crate can be redacted,
+    but are otherwise immutable.
 
 `cargo` itself, has it's own ecosystem of tools, like:
 

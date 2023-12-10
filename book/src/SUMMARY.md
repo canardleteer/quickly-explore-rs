@@ -1,5 +1,6 @@
 # Summary
 
+- [Introduction](./00-00-intro.md)
 - [First Steps](./01-00-first-steps.md)
 - [VSCode](./02-00-vscode.md)
 - [This Repository](./03-00-this-repo.md)
@@ -23,3 +24,4 @@
   - [Run the new version](./10-03-cargo-run.md)
   - [Format the changed code](./10-04-cargo-fmt.md)
   - [Lint the changed code](./10-05-cargo-clippy.md)
+- [Conclusion](./11-00-conclusion.md)

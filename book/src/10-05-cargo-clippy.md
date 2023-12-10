@@ -26,7 +26,7 @@ There are 4 other options, which would be to disable linting of that specific ru
 - That line
 - That function
 - That module
-- The whole crate
+- The whole package
 
 But I won't go into that. The linter isn't always right, but often is. You
 have many options that don't involve disabling the linter completely. Don't

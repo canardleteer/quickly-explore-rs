@@ -18,7 +18,7 @@ git clone https://github.com/canardleteer/quickly-explore-rs.git
   - This sometimes fails for people. There's enough info in the shell script
     to manually do it.
 
-```shell
+```text
 # Take a look at what ya got:
 rustup show
 

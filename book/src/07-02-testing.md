@@ -13,7 +13,7 @@ fn some_test() {
 
 Then run `cargo test`:
 
-```shell
+```text
 -> cargo test
    Compiling quickly-explore-rs v0.1.0 (/home/canardleteer/dev/quickly-explore-rs)
     Finished test [unoptimized + debuginfo] target(s) in 0.27s

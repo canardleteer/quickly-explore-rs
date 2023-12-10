@@ -2,7 +2,7 @@
 
 - Let's check to see if that's good Rust, with `cargo fmt --check`:
 
-```shell
+```text
 -> cargo fmt --check
 Diff in /home/canardleteer/dev/quickly-explore-rs/src/main.rs at line 6:
  #[command(author, version, about, long_about = None)]
@@ -24,7 +24,7 @@ Diff in /home/canardleteer/dev/quickly-explore-rs/src/main.rs at line 6:
 
 - Looks like we didn't quite do that too legibly, but let's let the formatter do the work for us, with `cargo fmt`.
 
-```shell
+```text
 # Clean it up for us.
 -> cargo fmt
 

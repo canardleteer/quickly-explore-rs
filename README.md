@@ -8,3 +8,5 @@
 ```shell
 mdbook serve book
 ```
+
+- You can dig deeper into service development, with [this guide](https://github.com/canardleteer/grpc-service-rs).

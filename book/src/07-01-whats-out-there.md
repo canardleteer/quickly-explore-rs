@@ -1,6 +1,10 @@
 # What's out there?
 
-*Caveat:* **This list is generally oriented for a Service Engineer migrating to Rust.**
+**The general "go to" place these days to poke around the ecosystem, is:**
+
+- [blessed.rs](https://blessed.rs/crates)
+
+Below, I've added a few crates that I think are useful to highlight for some types of engineers I often work with:
 
 - CLI Arg parsing: [clap](https://crates.io/crates/clap)
 - Serialization / Deserialization: [serde](https://crates.io/crates/serde)

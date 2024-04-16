@@ -1,6 +1,6 @@
 # Macros
 
-The macro sytax in Rust is both extremely powerful and useful, but can appear
+The macro syntax in Rust is both extremely powerful and useful, but can appear
 to be a bit arcane and "meta." They are not like `C/C++` macros. It will be
 awhile before you understand why and where to use macros, and that's before you
 understand how to. All that is okay.

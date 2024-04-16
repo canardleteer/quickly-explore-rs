@@ -25,3 +25,5 @@ fn main() {
     println!("Hello, {}!", args.name);
 }
 ```
+
+- **If you see an inline code warning, ignore the warning.**

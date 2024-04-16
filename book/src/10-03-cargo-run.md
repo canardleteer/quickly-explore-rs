@@ -6,11 +6,13 @@ You can declare a whole lot more with `clap`, like commands, sub-commands, etc. 
 
 ```shell
 cargo build
+
+# ignore the compiler warning for now, we will cover that soon.
 ```
 
 - Run it this way `./target/debug/quickly-explore-rs --help`:
 
-```shell
+```text
 -> ./target/debug/quickly-explore-rs --help
 Usage: quickly-explore-rs [OPTIONS]
 

@@ -2,7 +2,7 @@
 
 - Let's see if the code smells right via `cargo clippy`:
 
-```shell
+```text
 -> cargo clippy
     Checking quickly-explore-rs v0.1.0 (/home/canardleteer/dev/quickly-explore-rs)
 warning: unused variable: `name`
@@ -17,11 +17,12 @@ warning: `quickly-explore-rs` (bin "quickly-explore-rs") generated 1 warning (ru
     Finished dev [unoptimized + debuginfo] target(s) in 0.09s
 ```
 
-Oh yeah, I guess we aren't using `name`. Go ahead and delete that line, or
+Oh yeah, I guess we aren't using `name`. Go ahead and: delete that line, or
 follow the linters suggestion of prefixing it with an underscore if you want
 to use it for something else.
 
-There are 4 other options, which would be to disable linting of that specific rule (`unused_variables`) for:
+There are 4 other options, which would be to disable linting of that specific
+rule (`unused_variables`) for:
 
 - That line
 - That function
@@ -29,9 +30,9 @@ There are 4 other options, which would be to disable linting of that specific ru
 - The whole package
 
 But I won't go into that. The linter isn't always right, but often is. You
-have many options that don't involve disabling the linter completely. Don't
-disable the linter completely. Not using the linter at all is not a reasonable
-5th option.
+have many options that don't involve disabling the linter completely. **Don't
+disable the linter completely.** Not using the linter at all is not a
+reasonable 5th option.
 
 - Run `cargo clippy` again:
 
